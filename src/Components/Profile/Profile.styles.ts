@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import Email from '../../assets/email.svg';
+
 
 export const Profile = styled.div`
  width: 100%;
