@@ -18,7 +18,7 @@ const Experience = () => {
 					<img src={ReactImg} />
 
 					<S.TimeAll>
-						<div className='time-today'>10 months</div>
+						<div className='time-today'>8 months</div>
 					</S.TimeAll>
 				</S.ExperienceTimeLife>
 			</S.ExperienceTime>
@@ -26,7 +26,7 @@ const Experience = () => {
 				<S.ExperienceTimeLife>
 					<img src={Js} />
 					<S.TimeAll>
-						<div className='time-today'>10 months</div>
+						<div className='time-today'>8 months</div>
 					</S.TimeAll>
 				</S.ExperienceTimeLife>
 			</S.ExperienceTime>
