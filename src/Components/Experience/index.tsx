@@ -9,7 +9,7 @@ const Experience = () => {
 			<S.ExperienceDescription>
 				<h3>Experience</h3>
 				<p>
-					10 months working as a Software Developer, in companys such as Jusfy
+					8 months working as a Software Developer, in companys such as Jusfy
 				</p>
 			</S.ExperienceDescription>
 
