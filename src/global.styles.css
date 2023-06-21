@@ -1,0 +1,34 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	width: 100%;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+
+	background: #2c2c2c;
+
+	padding: 40px 32px;
+	font-family: 'Poppins';
+}
+
+a {
+	text-decoration: none;
+}
+
+ul,
+li {
+	padding: 0;
+	margin: 0;
+}
+
+h1,
+h2,
+h3,
+p {
+	margin: 0;
+}
