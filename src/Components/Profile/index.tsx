@@ -33,7 +33,7 @@ export default function Profile() {
 				</S.BoxIcon>
 			</S.MediasContent>
 
-			<S.ButtonContact href='https://mail.google.com/'>
+			<S.ButtonContact href='mailto:dyegoo.1295@gmail.com'>
 				<span>Contact Me </span>
 				<img src={Email} />
 			</S.ButtonContact>
