@@ -4,6 +4,15 @@ import Js from '../../assets/js-1.svg';
 import Ts from '../../assets/ts-1.svg';
 
 const Experience = () => {
+	const dataAtual = new Date();
+	const dataAnterior = new Date('2022-10-10T00:00:00.000Z');
+
+	const meses =
+		(dataAtual.getFullYear() - dataAnterior.getFullYear()) * 12 +
+		(dataAtual.getMonth() - dataAnterior.getMonth());
+
+	console.log(meses); // Output: 12
+
 	return (
 		<S.ExperienceContainer>
 			<S.ExperienceDescription>
@@ -18,7 +27,7 @@ const Experience = () => {
 					<img src={ReactImg} />
 
 					<S.TimeAll>
-						<div className='time-today'>8 months</div>
+						<div className='time-today'>{meses} months</div>
 					</S.TimeAll>
 				</S.ExperienceTimeLife>
 			</S.ExperienceTime>
@@ -26,7 +35,7 @@ const Experience = () => {
 				<S.ExperienceTimeLife>
 					<img src={Js} />
 					<S.TimeAll>
-						<div className='time-today'>8 months</div>
+						<div className='time-today'>{meses} months</div>
 					</S.TimeAll>
 				</S.ExperienceTimeLife>
 			</S.ExperienceTime>
@@ -34,7 +43,7 @@ const Experience = () => {
 				<S.ExperienceTimeLife>
 					<img src={Ts} />
 					<S.TimeAll>
-						<div className='time-today ts'>4 months</div>
+						<div className='time-today ts'>{meses} months</div>
 					</S.TimeAll>
 				</S.ExperienceTimeLife>
 			</S.ExperienceTime>
